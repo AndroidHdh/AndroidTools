@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicatorView">
+        <attr name="indicatorRadius" format="dimension"/>
+        <attr name="indicatorBorderWidth" format="dimension"/>
+        <attr name="indicatorSpace" format="dimension"/>
+        <attr name="indicatorTextColor" format="color"/>
+        <attr name="indicatorColor" format="color"/>
+        <attr name="indicatorSelectColor" format="color"/>
+        <attr name="enableIndicatorSwitch" format="boolean"/>
+        <attr name="fill_mode">
+            <enum name="letter" value="0"/>
+            <enum name="number" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="InfiniteViewPager">
+        <attr name="canLoop" format="boolean"/>
+        <attr name="normal" format="boolean"/>
+        <attr name="indicatorPaddingLeft" format="dimension"/>
+        <attr name="indicatorPaddingRight" format="dimension"/>
+        <attr name="indicatorPaddingTop" format="dimension"/>
+        <attr name="indicatorPaddingBottom" format="dimension"/>
+        <attr name="indicatorAlign">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="middle_page_cover" format="boolean"/>
+    </declare-styleable>
+</resources>

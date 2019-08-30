@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        tools:context=".behavior.CustomBehaviorActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head1"/>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nest_scroll_view"
+            android:background="@color/colorWhite"
+            app:layout_behavior="@string/cover_header_behavior">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+            <TextView
+                    style="@style/ListItemStyle"
+                    android:text="第一项"/>
+            <View style="@style/ListItemLine"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

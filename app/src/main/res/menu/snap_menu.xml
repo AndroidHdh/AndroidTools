@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_vertical"
+          android:title="垂直滑动"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_hor"
+          android:title="水平滑动"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_vertical_start"
+          android:title="垂直滑动到开始"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_hor_start"
+          android:title="水平滑动到开始"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_vertical_viewPager"
+          android:title="ViewPager垂直滑动"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_hor_viewPager"
+          android:title="ViewPager水平滑动"
+          app:showAsAction="never"
+    />
+</menu>

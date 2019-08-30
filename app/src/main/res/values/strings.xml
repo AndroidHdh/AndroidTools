@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidMaterialDesign</string>
+    <string name="str_favorite">收藏</string>
+    <string name="str_viewpager">ViewPager</string>
+    <string name="str_snap_recyclerview">snap_recyclerview</string>
+    <string name="share_qq">QQ分享</string>
+    <string name="share_wechat">微信分享</string>
+    <string name="share_dingtalk">钉钉分享</string>
+    <string name="str_webview">webView</string>
+</resources>

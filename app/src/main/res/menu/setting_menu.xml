@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_collect"
+          android:icon="@drawable/ic_favorite_red"
+          android:title="@string/str_favorite"
+          app:showAsAction="ifRoom"
+    />
+    <item android:id="@+id/item_viewpager"
+          android:title="@string/str_viewpager"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_snap_recyclerview"
+          android:title="@string/str_snap_recyclerview"
+          app:showAsAction="never"
+    />
+    <item android:id="@+id/item_webview"
+          android:title="@string/str_webview"
+          app:showAsAction="never"
+    />
+</menu>
