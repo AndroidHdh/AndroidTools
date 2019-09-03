@@ -1,4 +1,4 @@
-package com.sakuqi.webviewlibrary
+package com.sakuqi.corelibrary
 
 import android.app.Application
 

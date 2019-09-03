@@ -48,6 +48,8 @@ class CommonViewPagerActivity : AppCompatActivity() {
         infiniteViewPagerAdapter.setUpViewPager(viewPagerInfinite)
         viewPagerInfinite.offscreenPageLimit = 3
         viewPagerInfinite.setPageTransformer(true, CustomTransformer())
+
+
         mViewPagerAutoInfinite = findViewById(R.id.viewPagerAutoInfinite)
         mViewPagerAutoInfinite.setPage(mutableListOf("111", "222", "333")
             ,

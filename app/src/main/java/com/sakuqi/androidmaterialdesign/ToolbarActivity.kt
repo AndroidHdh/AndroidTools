@@ -8,6 +8,7 @@ import android.view.View
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.sakuqi.androidmaterialdesign.behavior.CustomBehaviorActivity
+import com.sakuqi.recyclerviewlibrary.RecyclerViewActivity
 import com.sakuqi.viewpagerlibrary.demo.CommonViewPagerActivity
 import com.sakuqi.webviewlibrary.WebViewActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -28,6 +29,8 @@ class ToolbarActivity : AppCompatActivity() {
                 startActivity(Intent(this@ToolbarActivity, SnapRecyclerViewActivity::class.java))
             }else if(item?.itemId == R.id.item_webview){
                 startActivity(Intent(this@ToolbarActivity, WebViewActivity::class.java))
+            }else if(item?.itemId == R.id.item_recyclerview){
+                startActivity(Intent(this@ToolbarActivity, RecyclerViewActivity::class.java))
             }
             true
         }

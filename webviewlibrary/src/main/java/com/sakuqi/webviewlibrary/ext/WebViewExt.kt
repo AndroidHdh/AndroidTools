@@ -3,7 +3,8 @@ package com.sakuqi.webviewlibrary.ext
 import android.os.Build
 import android.webkit.WebSettings
 import android.webkit.WebView
-import com.sakuqi.webviewlibrary.BaseApplication
+import com.sakuqi.corelibrary.BaseApplication
+
 
 fun WebView.defaultSetting(){
     val webSettings = settings

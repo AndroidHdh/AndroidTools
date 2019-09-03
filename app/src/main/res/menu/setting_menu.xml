@@ -17,4 +17,8 @@
           android:title="@string/str_webview"
           app:showAsAction="never"
     />
+    <item android:id="@+id/item_recyclerview"
+            android:title="@string/str_recyclerview"
+            app:showAsAction="never"
+            />
 </menu>

@@ -4,8 +4,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
             android:allowBackup="true"
-            android:supportsRtl="true"
-            android:name=".BaseApplication">
+            android:supportsRtl="true">
         <activity android:name=".WebViewActivity">
         </activity>
     </application>

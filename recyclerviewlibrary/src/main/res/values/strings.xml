@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">recyclerviewlibrary</string>
+    <string name="str_footer_text">this is my last line</string>
+</resources>

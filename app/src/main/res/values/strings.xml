@@ -7,4 +7,5 @@
     <string name="share_wechat">微信分享</string>
     <string name="share_dingtalk">钉钉分享</string>
     <string name="str_webview">webView</string>
+    <string name="str_recyclerview">recyclerview</string>
 </resources>

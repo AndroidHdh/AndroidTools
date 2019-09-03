@@ -1,9 +1,9 @@
 package com.sakuqi.androidmaterialdesign
 
 import android.app.Application
-import com.sakuqi.webviewlibrary.BaseApplication
+import com.sakuqi.corelibrary.BaseApplication
 
-class AppApplication:BaseApplication() {
+class AppApplication: BaseApplication() {
     companion object {
         lateinit var instance: Application
     }
