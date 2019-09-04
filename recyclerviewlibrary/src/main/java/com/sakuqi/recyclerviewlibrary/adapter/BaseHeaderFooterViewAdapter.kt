@@ -1,8 +1,8 @@
 package com.sakuqi.recyclerviewlibrary.adapter
 
-import android.util.SparseArray
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 open class BaseHeaderFooterViewAdapter<T>(val mDatas: MutableList<T>) :
@@ -85,5 +85,17 @@ open class BaseHeaderFooterViewAdapter<T>(val mDatas: MutableList<T>) :
     open class HeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
     open class NormalViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
     open class FooterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+
+    fun adjustSpanSize(recycler:RecyclerView){
+        if(recycler.layoutManager is GridLayoutManager){
+            val layoutManager = recycler.layoutManager as GridLayoutManager
+            layoutManager.spanSizeLookup = object :GridLayoutManager.SpanSizeLookup(){
+                override fun getSpanSize(position: Int): Int {
+                    val isHeaderOrFooter = (mUseHeader && position == 0) || (mUseFooter && position==itemCount-1)
+                    return if(isHeaderOrFooter) layoutManager.spanCount else 1
+                }
+            }
+        }
+    }
 
 }

@@ -1,32 +1,4 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-    <style name="ToolbarTheme" parent="Theme.AppCompat.Light">
-        <!-- Customize your theme here. -->
-        <item name="android:textColor">@color/colorAccent</item>
-        <item name="actionMenuTextColor">@color/colorWhite</item>
-        <item name="actionOverflowButtonStyle">@style/OverFlowIcon</item>
-    </style>
-    <style name="OverFlowIcon" parent="Widget.AppCompat.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_more_vert_write</item>
-    </style>
 
-    <style name="ListItemStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/list_item_height_size</item>
-        <item name="android:textSize">@dimen/list_item_text_size</item>
-        <item name="android:textColor">@color/list_item_text_color</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="ListItemLine">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">@color/list_item_line_color</item>
-    </style>
 </resources>

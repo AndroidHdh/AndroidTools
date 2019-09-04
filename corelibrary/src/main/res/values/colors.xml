@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="list_item_text_color">#000</color>
+    <color name="list_item_line_color">#ECEAEA</color>
+    <color name="page_color">#ECEAEA</color>
 </resources>

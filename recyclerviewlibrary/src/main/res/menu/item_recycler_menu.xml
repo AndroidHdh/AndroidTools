@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/item_linear_layout"
+            android:title="单行垂直列表"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/item_linear_horizontal_layout"
+            android:title="单行水平列表"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/item_grid_layout"
+            android:title="表格"
+            app:showAsAction="never" />
+</menu>
