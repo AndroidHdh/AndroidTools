@@ -13,4 +13,14 @@
             android:id="@+id/item_grid_layout"
             android:title="表格"
             app:showAsAction="never" />
+
+    <item
+            android:id="@+id/item_sticky_layout"
+            android:title="黏性头部"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/item_refresh_head_layout"
+            android:title="下拉刷新"
+            app:showAsAction="never" />
 </menu>

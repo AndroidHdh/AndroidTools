@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".RecyclerViewActivity">
-    <androidx.recyclerview.widget.RecyclerView
+        tools:context=".demo.RecyclerViewActivity">
+    <com.sakuqi.recyclerviewlibrary.view.WrapRecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/recyclerView"/>
+            android:id="@+id/recyclerView" />
+    <com.sakuqi.recyclerviewlibrary.refresh.LoadRefreshRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerViewHeadRefresh" />
+    <com.sakuqi.recyclerviewlibrary.view.SideBar
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/sideBar"/>
 
-</LinearLayout>
+</RelativeLayout>

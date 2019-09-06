@@ -6,5 +6,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
+                android:text="I am a Footer"
                 android:id="@+id/footerTv"/>
 </LinearLayout>

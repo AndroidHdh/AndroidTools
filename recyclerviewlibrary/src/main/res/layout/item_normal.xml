@@ -6,5 +6,6 @@
                 android:id="@+id/list_text"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/normal_text_list_height"
-                android:gravity="center"/>
+                android:gravity="center_vertical|start"
+                android:paddingStart="@dimen/page_padding"/>
 </LinearLayout>

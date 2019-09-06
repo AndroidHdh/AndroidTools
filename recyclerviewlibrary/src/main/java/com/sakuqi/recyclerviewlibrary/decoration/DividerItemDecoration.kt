@@ -1,4 +1,4 @@
-package com.sakuqi.recyclerviewlibrary
+package com.sakuqi.recyclerviewlibrary.decoration
 
 import android.content.Context
 import android.graphics.*
@@ -8,7 +8,11 @@ import androidx.annotation.ColorInt
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class DividerItemDecoration(val context:Context,
+/**
+ * 通用风格线
+ * 支持线高、颜色、左右间距
+ */
+open class DividerItemDecoration(val context:Context,
                             val orientation:Int,
                             val paddingLeft:Int = 0,
                             val paddingRight:Int = 0,
@@ -43,6 +47,7 @@ class DividerItemDecoration(val context:Context,
         val bottom = parent.height - parent.paddingBottom
         val childCount = parent.childCount
         for (i in 0 until childCount){
+            if(!drawDecoration(i))continue
             val child = parent.getChildAt(i)
             val params = child.layoutParams as RecyclerView.LayoutParams
             val left = child.right + params.rightMargin
@@ -58,7 +63,8 @@ class DividerItemDecoration(val context:Context,
         val childCount = parent.childCount
         for (i in 0 until childCount){
             val child = parent.getChildAt(i)
-            child.tag = i
+            val adapterPos = parent.getChildAdapterPosition(child)
+            if(!drawDecoration(adapterPos))continue
             val params = child.layoutParams as RecyclerView.LayoutParams
             val top = child.bottom + params.bottomMargin
             val bottom = if(i == childCount-1) top else top+driverHeight
@@ -81,4 +87,7 @@ class DividerItemDecoration(val context:Context,
         }
     }
 
+    open fun drawDecoration(position:Int):Boolean{
+        return true
+    }
 }

@@ -4,7 +4,7 @@
 
     <application
             android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewActivity">
+        <activity android:name=".demo.RecyclerViewActivity">
         </activity>
     </application>
 
